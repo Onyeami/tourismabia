@@ -36,6 +36,7 @@ ul {
     transition: background-color 0.2s ease;
 }
 
+/* Hover effect on navigation items */
 .navbar-item:hover {
     background-color: #ff6600;
 }
@@ -45,6 +46,7 @@ ul {
     text-transform: capitalize;
 }
 
+/* Styling for the welcome section */
 .welcome {
     background-color: #fff;
     padding: 3rem 1rem;
@@ -56,4 +58,153 @@ ul {
     color: #ff6600;
     margin-bottom: 2rem;
     text-transform: capitalize
+}
+
+#ije {
+    color: #ff6600;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#permit {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Styling for a grid layout with columns */
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.column {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6600;
+    margin-bottom: 15px;
+}
+
+/* Styling for images within columns */
+.column img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.column p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.column .readmore {
+    margin-top: 10px;
+}
+
+.column .readmore summary {
+    cursor: pointer;
+    outline: none;
+    color: #ff6600;
+}
+
+.column .readmore summary::after {
+    content: '+';
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.column .readmore[open] summary::after {
+    content: '-';
+}
+
+.column .state a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.column .state a:hover {
+    background-color: #e65c00;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0rem 0rem;
+    background-color: #ff6600;
+    color: #fff;
+    clip-path: polygon(0% 0%, 420% 40%, 10% 100%, 0% 90%);
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #ff6600;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+header li {
+    margin-right: 1rem;
+    position: relative;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s ease;
+}
+
+header a:hover {
+    border-bottom: 2px solid #fff;
 }
