@@ -49,14 +49,14 @@ ul {
 /* Styling for the welcome section */
 .welcome {
     background-color: #fff;
-    padding: 3rem 1rem;
+    padding: 3rem 1rem; /* Add some padding to the top and bottom of the welcome section */
     text-align: center;
 }
 
 #welcome {
     font-size: 3rem;
     color: #ff6600;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; /* Add some space between the welcome text and the paragraph */
     text-transform: capitalize
 }
 
@@ -71,7 +71,7 @@ ul {
     font-weight: bold;
 }
 
-/* Styling for a grid layout with columns */
+/* Section styles */
 .content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -147,7 +147,7 @@ ul {
     background-color: #e65c00;
 }
 
-/* Styles for the header section */
+/* Navbar styles */
 header {
     background-color: #333;
     color: #fff;
@@ -183,38 +183,38 @@ nav a:hover {
 }
 
 header .logo {
-    font-size: 2rem;
+    font-size: 2rem; /* Increase the logo font size for emphasis */
     font-weight: bold;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', cursive; /* Add a unique font for the logo */
 }
 
 header ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin-top: 0;
-    padding-left: 0;
+    margin-top: 0; /* Remove default margin for the UL */
+    padding-left: 0; /* Remove default padding for the UL */
 }
 
 header li {
     margin-right: 1rem;
-    position: relative;
+    position: relative; /* Add relative position for the hover effect */
 }
 
 header a {
     color: #fff;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s ease;
+    padding: 0.5rem 1rem; /* Add some padding to the links for better clickability */
+    border-bottom: 2px solid transparent; /* Add a transparent border-bottom to the links */
+    transition: border-bottom 0.2s ease; /* Add a smooth transition effect */
 }
 
 header a:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #fff; /* Apply a border-bottom on hover */
 }
 
 header a:active {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #fff; /* Apply a border-bottom to the active link */
 }
 
 #ike {
@@ -323,7 +323,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* screen responsiveness */
+/* Media Query for small screens */
 @media (max-width:768px) {
     nav {
         flex-direction: column;
@@ -386,16 +386,17 @@ footer a:hover {
     }
 }
 
+/* Our Services Section styles */
 .our {
     background-color: #fff;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem; /* Adjust padding to reduce top and bottom spacing */
     text-align: center;
 }
 
 .our h1 {
-    font-size: 2.5rem;
+    font-size: 2.5rem; /* Reduce font size for the h1 heading */
     color: #ff6600;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem; /* Reduce space between the h1 heading and the paragraphs */
 }
 
 .our p {
@@ -455,6 +456,7 @@ footer a:hover {
     padding: 8px;
 }
 
+/* Contact Form */
 .contact {
     background-color: #f1f1f1;
     padding: 40px;
@@ -511,6 +513,7 @@ input[type="submit"]:hover {
     background-color: #e65c00;
 }
 
+/* Responsive Styles */
 @media (max-width: 768px) {
     .services {
         grid-template-columns: 1fr;
@@ -614,10 +617,11 @@ textarea:focus {
     border-color: #ff6600;
 }
 
+/* Gallery section styles */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust grid layout to make items smaller */
+    grid-gap: 20px; /* Increase gap between items */
     margin: 40px auto;
 }
 
@@ -631,7 +635,7 @@ textarea:focus {
 .item img,
 .item video {
     width: 100%;
-    height: 200px;
+    height: 200px; /* Reduce height to make items smaller */
     object-fit: cover;
 }
 
