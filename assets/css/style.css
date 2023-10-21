@@ -412,6 +412,10 @@ footer a:hover {
     font-size: 1.1rem;
 }
 
+#offer {
+    display: none;
+}
+
 .services {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
