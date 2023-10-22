@@ -6,7 +6,20 @@ The link can be found here - [Onye-Ije Tourism Company](https://onyeami.github.i
 
 (Developer: Charles Onye)
 
+## Introduction
+
 Welcome to Onye-Ije Tourism Company. Onye Ije means ‘the traveller’ in the Igbo language. Our main purpose is to provide you with all the information and resources you need in order to plan your unforgettable trip to Abia State in Nigeria. Onye-Ije Tourism Company has the primary objective of showcasing to the world the beauty and cultural heritage of Abia State in the southeastern part of Nigeria. This README provides an overview of our company and the amazing experience you can enjoy while exploring Abia State.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [User Experience]
+- [Design]
+- [Features]
+- [Technologies]
+- [Testing]
+- [Deployment]
+- [Credits]
 
 ## About Abia State
 
