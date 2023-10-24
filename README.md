@@ -127,9 +127,18 @@ At Onye-Ije Tourism Company, we are very passionate about creating unforgettable
 
 ## The Design of the Website
 
-- The colour scheme used is orange and white.
+1. Colour Scheme
+   - The colour scheme used are orange and white.
 
-- The typography used is Arial font, being the main font and sans serif as the fall-back font.
+2. Typography
+   - The typography used is Arial font, being the main font and sans serif as the fall-back font.
+
+3. Layout
+   - The company logo was positioned at the top left of the page. There are five navigational tabs at the top right of the page.
+     The background colour was white and the font colour being black. The testimonial section was rectangular in shape with a longer length.
+     The pictures of the customers were in a circular shape.
+
+## Wireframes  
 
 - The features are interactive elements and are responsive on all device sizes.
 
