@@ -234,23 +234,23 @@ No errors were found using Nu HTML Checker
 
 I created a GitHub Account, where I deployed the project.
 
-1. ## Create a New Repository
+## Create a New Repository
 
-   - I created a new repository on [Github](https://github.com/Code-Institute-Org/ci-full-template). Go to the Use this template tab and select Create a new repository.
-     I chose "New Repository" from the dropdown menu. I filled out the repository name, and the repository to be public.
+I created a new repository on [Github](https://github.com/Code-Institute-Org/ci-full-template). Go to the Use this template tab and select Create a new repository.
+I chose "New Repository" from the dropdown menu. I filled out the repository name, and the repository to be public.
 
 ## Clone the Repository
 
-    - I copied the repository URL to Codeanywhere app. I opened a new workspace and pasted the URL. I also placed my project files, including code, documents, and assets,
-    into the cloned repository directory.
+I copied the repository URL to Codeanywhere app. I opened a new workspace and pasted the URL. I also placed my project files, including code, documents, and assets,
+into the cloned repository directory.
 
 ## Stage and Commit Changes
 
-    - I used Git to track and commit my changes.
-    - git add .
-    - git commit -m "Initial commit" (I replaced the message with a meaningful description of my changes).
-    - I used 'git status' to check the status of my changes
-    - I used 'git push' to transfer the local repository to the GitHub.
+- I used Git to track and commit my changes.
+- git add .
+- git commit -m "Initial commit" (I replaced the message with a meaningful description of my changes).
+- I used 'git status' to check the status of my changes
+- I used 'git push' to transfer the local repository to the GitHub.
 
 Then I went to my repository on GitHub, clicked on the setting tab, scrolled down to the GitHub Pages section. I selected the main branch and clicked on save.
 
