@@ -141,14 +141,31 @@ At Onye-Ije Tourism Company, we are very passionate about creating unforgettable
 ## Wireframes  
 
 - The features are interactive elements and are responsive on all device sizes.
+  - _Home Tab Layout_
 
-- The technologies used are HTML and CSS.
+![wireframe design for the home tab layout](assets/images/homelayout.png)
 
-- The frameworks, libraries and programs used are
+- _Phone Screen_
 
-  - Hover.css used on the social media icons in the footer to add the float transition while being hovered over
-  - Git used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-  - GitHub used to store the project’s code after being pushed from Git.
+![wireframe design for phone home tab](assets/images/phonehome.PNG)
+
+- _Testimonal Layout_
+
+![wireframe design for the testimonial section](assets/images/testimonalpage.png)
+
+## Technologies
+
+## Languages Used
+
+- HTML
+- CSS
+
+## Frameworks, libraries and programs used
+
+- Hover.css used on the social media icons in the footer to add the float transition while being hovered over
+- Git used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- GitHub used to store the project’s code after being pushed from Git.
+- YouTube and Google Chrome were used for research and troubleshooting
 
 ## The Website Structure
 
@@ -180,27 +197,25 @@ At Onye-Ije Tourism Company, we are very passionate about creating unforgettable
      - Accommodation options (hotels, resorts, guest houses) with descriptions and contact details
      - Weather information and the best time to visit
 
-  5. _Events and Festivals_
-
-     - Calendar of upcoming events, festivals, and cultural celebrations in Abia State
-       \*Detailed descriptions of major events with dates, locations, and highlights
-     - Photo gallery showcasing previous events and festivals
-
-  6. _Local Cuisine_
+  5. _Local Cuisine_
 
      - Introduction to the diverse culinary traditions of Abia State
      - Featured local dishes with descriptions and images
 
-  7. _Testimonies_
+  6. _Testimonies_
 
      - Personal accounts from visitors sharing their adventures in the state
      - Opportunities for visitors to contribute their own stories and photos
 
-  8. _Contact Us_
+  7. _Contact Us_
 
      - Contact form for general inquiries, feedback, and partnership opportunities
      - Contact details for Onye-Ije Tourism Company.
      - Office address and phone numbers for direct communication.
 
-  9. _Footer_
+  8. _Footer_
      - Social media links to connect with Onye-Ije Tourism's official accounts
+
+## Testing
+
+No errors were found using W3C CSS Validator
